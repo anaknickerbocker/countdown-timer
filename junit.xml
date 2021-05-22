@@ -1,0 +1,148 @@
+<testsuites name="jest tests" tests="4" failures="4" time="0.854">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2021-04-18T22:22:28" time="0.854" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.026">
+      <failure>Error: Too many re-renders. React limits the number of renders to prevent an infinite loop.
+    at renderWithHooks (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:14815:17)
+    at mountIndeterminateComponent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:19:46)
+    at Object.&lt;anonymous&gt; (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:20:3)
+    at Object.asyncFn (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname=" inital value is set via props" name=" inital value is set via props" time="0.005">
+      <failure>Error: Too many re-renders. React limits the number of renders to prevent an infinite loop.
+    at renderWithHooks (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:14815:17)
+    at mountIndeterminateComponent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:28:46)
+    at Object.&lt;anonymous&gt; (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:29:3)
+    at Object.asyncFn (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname=" timer stops at 0" name=" timer stops at 0" time="0.003">
+      <failure>Error: Too many re-renders. React limits the number of renders to prevent an infinite loop.
+    at renderWithHooks (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:14815:17)
+    at mountIndeterminateComponent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:37:46)
+    at Object.&lt;anonymous&gt; (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:38:3)
+    at Object.asyncFn (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+    <testcase classname=" stop timer button stops the timer" name=" stop timer button stops the timer" time="0.004">
+      <failure>Error: Too many re-renders. React limits the number of renders to prevent an infinite loop.
+    at renderWithHooks (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:14815:17)
+    at mountIndeterminateComponent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:17482:13)
+    at beginWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:18596:16)
+    at HTMLUnknownElement.callCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:46:46)
+    at Object.&lt;anonymous&gt; (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/src/App.test.js:47:3)
+    at Object.asyncFn (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/akknickerbocker/Documents/GitHub/69518ecd-75b3-4bb9-9ec0-ca006f48b50c/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
